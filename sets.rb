@@ -20,24 +20,25 @@ list_1 = [1,2,3,4,5,30,50,80,90,100]
 list_2 = [4,5,6,7,8,9,10,20,30,50]
 list_3 = (1..100).to_a
 
-int = intersection(list_1, list_2)
+i = intersection(list_1, list_2)
 puts "The intersection is: "
-puts int
+puts i
 
 puts "----------------------------"
 
-uni = union(list_1, list_2)
+u = union(list_1, list_2)
 puts "The union is: "
-puts uni
+puts u
 
 puts "----------------------------"
 
-com = complement(list_1, list_3)
+c = complement(list_1, list_3)
 puts "The complement is: "
-print com
+print c
 
+puts "\n"
 puts "----------------------------"
 
-dif = difference(list_1, list_2)
+d = difference(list_1, list_2)
 puts "The difference is: "
-puts dif
+puts d
