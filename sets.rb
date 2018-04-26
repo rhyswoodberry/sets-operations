@@ -29,11 +29,11 @@ puts "The union is: "
 puts uni
 
 puts "----------------------------"
-=begin
+
 com = compliment(list_1, list_2)
 puts "The compliment is: "
 puts com
-=end
+
 puts "----------------------------"
 
 dif = difference(list_1, list_2)
