@@ -9,11 +9,10 @@ def union (l1, l2)
 end
 
 def compliment (l1, l2)
-  comp = diff(l1 - l2)
 end
 
-def difference (list_1, list_2)
-  dif = (l1 - l2)
+def difference (l1, l2)
+  (l1 - l2)
 end
 
 list_1 = [1,2,3,4,5..50,80,90,100]
@@ -28,3 +27,15 @@ puts "----------------------------"
 uni = union(list_1, list_2)
 puts "The union is: "
 puts uni
+
+puts "----------------------------"
+=begin
+com = compliment(list_1, list_2)
+puts "The compliment is: "
+puts com
+=end
+puts "----------------------------"
+
+dif = difference(list_1, list_2)
+puts "The difference is: "
+puts dif
