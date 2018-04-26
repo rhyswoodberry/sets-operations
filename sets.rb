@@ -45,31 +45,29 @@ d = Set.new
 puts "The difference is: "
 puts d.difference(list_1,list_2)
 
-=begin
-list_1 = [1,2,3,4,5,30,50,80,90,100]
-list_2 = [4,5,6,7,8,9,10,20,30,50]
-list_3 = (1..100).to_a
 
-i = intersection(list_1, list_2)
-puts "The intersection is: "
-puts i
+### Code from before I added the Sets class ###
 
-puts "----------------------------"
+# list_1 = [1,2,3,4,5,30,50,80,90,100]
+# list_2 = [4,5,6,7,8,9,10,20,30,50]
+# list_3 = (1..100).to_a
 
-u = union(list_1, list_2)
-puts "The union is: "
-puts u
+# i = intersection(list_1, list_2)
+# puts "The intersection is: "
+# puts i
+# puts "----------------------------"
 
-puts "----------------------------"
+# u = union(list_1, list_2)
+# puts "The union is: "
+# puts u
+# puts "----------------------------"
 
-c = complement(list_1, list_3)
-puts "The complement is: "
-print c
+# c = complement(list_1, list_3)
+# puts "The complement is: "
+# print c
+# puts "\n"
+# puts "----------------------------"
 
-puts "\n"
-puts "----------------------------"
-
-d = difference(list_1, list_2)
-puts "The difference is: "
-puts d
-=end
+# d = difference(list_1, list_2)
+# puts "The difference is: "
+# puts d
