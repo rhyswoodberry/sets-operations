@@ -5,7 +5,7 @@ def intersection (l1, l2)
 end
 
 def union (l1, l2)
-  uni = l1.concat l2
+  uni = l1 | l2
 end
 
 def compliment (l1, l2)
