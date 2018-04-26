@@ -23,6 +23,8 @@ int = intersection(list_1, list_2)
 puts "The intersection is: "
 puts int
 
+puts "----------------------------"
+
 uni = union(list_1, list_2)
 puts "The union is: "
 puts uni
